@@ -57,4 +57,5 @@ FORK       =  82
 ```
 
 
-NB: There are way more fields than just those represented above.
+NB: There are way more tags than just those represented above.
+Please refer to https://github.com/PyGithub/PyGithub and https://github.com/PyGithub/PyGithub/blob/master/github/tests/Repository.py for a complete documentation of the available tags.
