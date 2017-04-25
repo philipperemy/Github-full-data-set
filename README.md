@@ -1,8 +1,7 @@
 # Github-full-data-set
 Generating GitHub data!
 
-
-# Read from pre existing data
+## How to get started?
 ```
 git clone https://github.com/philipperemy/Github-full-data-set.git
 cd Github-full-data-set/
@@ -10,6 +9,10 @@ sudo pip3 install -r requirements.txt
 cat data_100k/x* > data_100k/GITHUB.tar.gz # because GitHub does not allow files bigger than 100Mb.
 md5sum data_100k/GITHUB.tar.gz # 5886b24033991283a4dbfa6b328be011  data_100k/GITHUB.tar.gz
 tar xvzf data_100k/GITHUB.tar.gz # goes to GITHUB/
+```
+
+## Read from pre existing data
+```
 python3 read.py GITHUB/
 ```
 
