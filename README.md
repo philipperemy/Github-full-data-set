@@ -56,6 +56,7 @@ LANGUAGE   =  Ruby
 FORK       =  82
 ```
 
-
 NB: There are way more tags than just those represented above.
-Please refer to https://github.com/PyGithub/PyGithub and https://github.com/PyGithub/PyGithub/blob/master/github/tests/Repository.py for a complete documentation of the available tags.
+Please refer to the links below for a complete documentation of all the available tags.
+- https://github.com/PyGithub/PyGithub
+- https://github.com/PyGithub/PyGithub/blob/master/github/tests/Repository.py 
