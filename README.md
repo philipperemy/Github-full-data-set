@@ -26,6 +26,11 @@ Due to size limitations, I had to narrow down the available tags to those above.
 - predict the numbers of stars/forks based on the source code.
 - or maybe just on the README.
 - relations between all the variables.
+- or just extracting lots of source code and apply a language model on it:
+  - **Example: how to get a lot of JavaScript source code:**
+  - in the dataset, filter with `$language` equal to `JavaScript`
+  - then clone the repository somewhere, `git clone $clone_url`
+  - ultimately, list all the JS files `find $directory -type f -name "*.js"`
 
 ## What if I want to scrape my own data?
 
