@@ -19,11 +19,12 @@ The fields recorded are:
 - stargazers_count
 - size
 
-Due to size limitations, I had to narrow down the available tags to those above. I provide all the tags for the 100k dataset. More information below.
+Due to size limitations, I had to narrow down the available tags to those above. I provide all the tags for the 100k dataset (~260Mb for 100k objects). Also, you can have all the tags if you scrape the data yourself. More information below.
 
 ## What if I want to scrape my own data?
 
 ### Let's get started!
+Replace `python3` and `pip3` by `python` and `pip` if you use Python 2.x.
 ```
 git clone https://github.com/philipperemy/Github-full-data-set.git
 cd Github-full-data-set/
