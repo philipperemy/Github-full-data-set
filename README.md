@@ -21,6 +21,12 @@ The fields recorded are:
 
 Due to size limitations, I had to narrow down the available tags to those above. I provide all the tags for the 100k dataset (~260Mb for 100k objects). Also, you can have all the tags if you scrape the data yourself. More information below.
 
+## Statistics/Machine Learning ideas
+
+- predict the numbers of stars/forks based on the source code.
+- or maybe just on the README.
+- relations between all the variables.
+
 ## What if I want to scrape my own data?
 
 ### Let's get started!
